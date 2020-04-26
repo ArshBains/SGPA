@@ -1,1 +1,90 @@
-html{min-height:100vh;background:linear-gradient(to bottom,#00909e 5%,#27496d 100%)}.main-container{padding-top:15vh;text-align:center}.row{min-height:10vh}input{text-align:center;border:none;border-radius:15px;width:30%;padding:5px 0}.result{font-family:monospace;font-size:3rem;color:#fff;text-shadow:0 2px 0 #000}.add{background:linear-gradient(to bottom,#44c767 5%,#5cbf2a 100%);background-color:#44c767;border-radius:28px;border:none;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:17px;padding:16px 31px;text-decoration:none;text-shadow:0 1px 0 #2f6627}.add:hover{background:linear-gradient(to bottom,#5cbf2a 5%,#44c767 100%);background-color:#5cbf2a}.bin{background-color:#ff7b00;border-radius:10px;border:1px solid #000;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:19px;padding:0 5px;text-decoration:none;text-shadow:0 1px 0 #000}.bin:hover{background-color:#f20000}.calc{background:linear-gradient(to bottom,#45bec7 5%,#2a6cbd 100%);background-color:#45bec7;border-radius:28px;border:none;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:17px;padding:16px 31px;text-decoration:none;text-shadow:0 1px 0 #283266}.calc:hover{background:linear-gradient(to bottom,#2a6cbd 5%,#45bec7 100%);background-color:#2a6cbd}
+html {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #00909e 5%, #27496d 100%);
+}
+
+.main-container {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  text-align: center;
+}
+
+.row {
+  min-height: 10vh;
+}
+
+input {
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  width: 30%;
+  padding: 5px 0;
+}
+
+.result {
+  font-family: monospace;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 2px 0 black;
+}
+
+/* ----------------Add subject button----------------------- */
+.add {
+  background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+  background-color: #44c767;
+  border-radius: 28px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.add:hover {
+  background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+  background-color: #5cbf2a;
+}
+
+/* -------------------------Delete subject button---------------------- */
+.bin {
+  background-color: #FF7B00;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 0 5px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #000000;
+}
+
+.bin:hover {
+  background-color: #f20000;
+}
+
+/* ---------------------Calculate button----------------------------- */
+.calc {
+  background: linear-gradient(to bottom, #45bec7 5%, #2a6cbd 100%);
+  background-color: #45bec7;
+  border-radius: 28px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #283266;
+}
+
+.calc:hover {
+  background: linear-gradient(to bottom, #2a6cbd 5%, #45bec7 100%);
+  background-color: #2a6cbd;
+}
